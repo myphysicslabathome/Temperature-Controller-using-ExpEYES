@@ -38,10 +38,18 @@ This project aims to control the temperature of the water bath using a temperatu
  <img src="./Temperature Controller Setup.png" alt="Experimental_Setup" width="500" title="Experimental_Setup">
 
  ## Results :
- <img src="./Termerature_1.png" alt="Temperture Controller" width="500" title="Results">
+ Different set temperatures and the corresponding Mean and SD values.
+ 
+ <img src="./Termerature_1.png" alt="Temperature Controller" width="500" title="Results">
 
-  <img src="./Temperature_2.png" alt="Temperture Controller 2" width="500" title="Results">
+ Histogram plot for set temperature 90 degrees after achieving the stability.
+  <img src="./Histrogram.png" alt="Temperature Controller 2" width="500" title="Results">
+ 
+Instead of placing the temperature sensor directly in the water bath, we place a second water bath (100 ml glass beaker) and measure the temperature of the small water bath, which helps reduce temperature fluctuation.  
+   <img src="./Temperature_2.png" alt="Histogram" width="500" title="Histogram">
 
+> ### NOTES :
+> - Here we have used a simple relay in ON and OFF mode to control the temperature. One can use the Proportional – Integral – Derivative(PID) algorithm to control the temperature more accurately.
 
  ## Special thanks to:
 
